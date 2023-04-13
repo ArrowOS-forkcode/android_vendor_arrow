@@ -27,7 +27,8 @@ PRODUCT_PACKAGES += \
     SimpleGallery \
     Stk \
     stats \
-    ThemePicker
+    ThemePicker \
+    Updater
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \

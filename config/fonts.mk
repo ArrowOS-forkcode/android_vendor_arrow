@@ -24,6 +24,12 @@ PRODUCT_COPY_FILES += \
     vendor/arrow/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf \
     vendor/arrow/fonts/Inter-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-VF.ttf \
     vendor/arrow/fonts/EvolveSans.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/EvolveSans.ttf \
+    vendor/arrow/fonts/LetteraMonoLL-Italic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LetteraMonoLL-Italic.otf \
+    vendor/arrow/fonts/LetteraMonoLL-Light.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LetteraMonoLL-Light.otf \
+    vendor/arrow/fonts/LetteraMonoLL-LightItalic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LetteraMonoLL-LightItalic.otf \
+    vendor/arrow/fonts/LetteraMonoLL-Medium.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LetteraMonoLL-Medium.otf \
+    vendor/arrow/fonts/LetteraMonoLL-MediumItalic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LetteraMonoLL-MediumItalic.otf \
+    vendor/arrow/fonts/LetteraMonoLL-Regular.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LetteraMonoLL-Regular.otf \
     vendor/arrow/fonts/OppoSans-En-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OppoSans-En-Regular.ttf
 
 PRODUCT_PACKAGES += \
@@ -34,4 +40,7 @@ PRODUCT_PACKAGES += \
     FontInterOverlay \
     FontOppoSansOverlay \
     FontEvolveSansOverlay \
+    FontLetteraOverlay \
+    ClockFontLetteraOverlay \
+    ClockFontNothingDotHeadlineOverlay \
     FontRubikRubikOverlay
