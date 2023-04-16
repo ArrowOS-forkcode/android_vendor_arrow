@@ -158,7 +158,9 @@ PRODUCT_PACKAGES += \
     IconPackRoundedLauncherOverlay \
     IconPackRoundedSettingsOverlay \
     IconPackRoundedSystemUIOverlay \
-    IconPackRoundedThemePickerOverlay
+    IconPackRoundedThemePickerOverlay \
+    IconPackXperiaAndroidOverlay \
+    IconPackXperiaSystemUIOverlay
 
 # Icon shapes
 PRODUCT_PACKAGES += \
