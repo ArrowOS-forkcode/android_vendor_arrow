@@ -35,6 +35,7 @@ SOONG_CONFIG_arrowGlobalVars += \
     gralloc_handle_has_custom_content_md_reserved_size \
     gralloc_handle_has_reserved_size \
     camera_needs_client_info_lib \
+    camera_needs_client_info_lib_oplus \
     target_alternative_futex_waiters \
     target_init_vendor_lib \
     target_inputdispatcher_skip_event_key \
@@ -63,6 +64,7 @@ SOONG_CONFIG_arrowGlobalVars_aapt_version_code := $(shell date -u +%Y%m%d)
 SOONG_CONFIG_arrowGlobalVars_gralloc_handle_has_custom_content_md_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_CUSTOM_CONTENT_MD_RESERVED_SIZE)
 SOONG_CONFIG_arrowGlobalVars_gralloc_handle_has_reserved_size := $(TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE)
 SOONG_CONFIG_arrowGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
+SOONG_CONFIG_arrowGlobalVars_camera_needs_client_info_lib_oplus := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS)
 SOONG_CONFIG_arrowGlobalVars_target_alternative_futex_waiters := $(TARGET_ALTERNATIVE_FUTEX_WAITERS)
 SOONG_CONFIG_arrowNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
 SOONG_CONFIG_arrowQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
