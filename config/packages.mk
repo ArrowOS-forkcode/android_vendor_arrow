@@ -15,7 +15,6 @@
 
 # Required packages
 PRODUCT_PACKAGES += \
-    Aperture \
     BluetoothExt \
     SimpleCalendar \
     DuckDuckGo \
