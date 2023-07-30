@@ -27,8 +27,7 @@ PRODUCT_PACKAGES += \
     SimpleGallery \
     Stk \
     stats \
-    ThemePicker \
-    Updater
+    ThemePicker
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
@@ -127,6 +126,10 @@ PRODUCT_PACKAGES += \
 # World APN list
 PRODUCT_PACKAGES += \
     apns-conf.xml
+
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
 
 # Icon packs
 PRODUCT_PACKAGES += \
